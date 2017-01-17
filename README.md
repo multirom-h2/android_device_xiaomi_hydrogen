@@ -8,9 +8,9 @@ Basic   | Spec Sheet
 CHIPSET | Qualcomm MSM8956 Snapdragon 650
 CPU     | Quad-core 1.4 GHz Cortex-A53 & Dual-core 1.8 GHz Cortex-A72
 GPU     | Adreno 510
-Memory  | 3 GB
+Memory  | 2/3 GB
 Shipped Android Version | Android 6.0 with MIUI
-Storage | 32/64 GB
+Storage | 16/32 GB
 Battery | 4850 mAh (non-removable)
 Dimensions | 173.1 x 88.3 x 7.5 mm
 Display | 1080 x 1920 pixels 6.44"

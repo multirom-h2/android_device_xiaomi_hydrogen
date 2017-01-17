@@ -14,9 +14,21 @@
 # limitations under the License.
 #
 
+# Release name
+PRODUCT_RELEASE_NAME := hydrogen
+
+$(call inherit-product, build/target/product/embedded.mk)
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/xiaomi/hydrogen/full_hydrogen.mk)
+# Time Zone data for recovery
+PRODUCT_COPY_FILES += \
+    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
+## Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := hydrogen
 PRODUCT_NAME := omni_hydrogen
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Mi Max
+PRODUCT_MANUFACTURER := Xiaomi
