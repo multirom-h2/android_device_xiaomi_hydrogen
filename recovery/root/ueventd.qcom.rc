@@ -33,8 +33,9 @@
 /dev/kgsl-3d0             0666   system     system
 /dev/kgsl-2d0             0666   root       root
 /dev/kgsl-2d1             0666   root       root
+/dev/sensors              0666   root       root
 /dev/ion                  0664   system     system
-/dev/rtc0                 0640   system     system
+/dev/rtc0                 0660   system     system
 /dev/smd0                 0660   system     system
 /dev/smd4                 0660   system     system
 /dev/smd_cxm_qmi          0640   radio      radio
@@ -216,6 +217,11 @@
 /sys/devices/soc.0/78b5000.i2c/i2c-1/1-0045/leds/green		blink	0660	input	system
 /sys/devices/soc.0/78b5000.i2c/i2c-1/1-0045/leds/blue		blink	0660	input	system
 
+# fpc Fingerprint
+/sys/devices/soc.0/fpc_fpc1020*		hw_reset			0220   system     system
+/sys/devices/soc.0/fpc_fpc1020*		irq	        		0660   system     system
+/sys/devices/soc.0/fpc_fpc1020*      	wakeup_enable	        	0220   system     system
+
 # vm_bms
 /dev/vm_bms               0660   system     system
 /dev/battery_data         0660   system     system
@@ -252,7 +258,7 @@
 
 # Add device block for FRP
 /dev/block/platform/soc.0/7824900.sdhci/by-name/config    0660   system     system
+/dev/block/bootdevice/by-name/config    0660   system     system
 
-# FPC
-/sys/devices/soc.0/fpc_fpc1020.*        irq             0660        system      system
-/sys/devices/soc.0/fpc_fpc1020.*        enable_wakeup   0660        system      system
+# for lirc
+/dev/lirc0          0660   system     system
