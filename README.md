@@ -24,4 +24,4 @@ It was announced in May 2016, in three flavours.
 
 ## Device picture
 
-![Xiaomi Mi Max](http://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-5-black-01_14051_1456305832.jpg "Xiaomi Mi Max in gold")
+![Xiaomi Mi Max](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-max--1.jpg "Xiaomi Mi Max in gold")
