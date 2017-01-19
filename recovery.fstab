@@ -15,11 +15,10 @@
 /firmware       vfat      /dev/block/bootdevice/by-name/modem                flags=display="Firmware";mounttodecrypt;fsflags=ro,context=u:object_r:firmware_file:s0;
 /persist        ext4      /dev/block/bootdevice/by-name/persist              flags=display="Persist";backup=1
 
-/dsp            ext4      /dev/block/bootdevice/by-name/dsp
-/keymaster      emmc      /dev/block/bootdevice/by-name/keymaster
+/dsp            ext4      /dev/block/bootdevice/by-name/dsp                  flags=display="DSP"
 
-/modem_fs1       emmc      /dev/block/bootdevice/by-name/modemst1            flags=display="modem_fs1 (Baseband)";backup=1;mounttodecrypt;subpartitionof=/boot;
-/modem_fs2       emmc      /dev/block/bootdevice/by-name/modemst2            flags=display="modem_fs2 (Baseband)";backup=1;mounttodecrypt;subpartitionof=/boot;
+/modem_fs1      emmc      /dev/block/bootdevice/by-name/modemst1             flags=display="modem_fs1 (Baseband)";backup=1;mounttodecrypt;subpartitionof=/boot;
+/modem_fs2      emmc      /dev/block/bootdevice/by-name/modemst2             flags=display="modem_fs2 (Baseband)";backup=1;mounttodecrypt;subpartitionof=/boot;
 
 /sdcard1        auto      /dev/block/mmcblk1p1                               flags=display="MicroSD";storage;wipeingui;removable
 /usb-otg        auto      /dev/block/sda1                                    flags=display="USB OTG";storage;wipeingui;removable

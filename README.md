@@ -11,7 +11,7 @@ It was announced in May 2016, in three flavours.
 | -----------: | :---------------------------------------------- | :---------------------------------------------- |
 | SoC          | Qualcomm MSM8956 Snapdragon 650                 | Qualcomm MSM8976 Snapdragon 652                 |
 | CPU          | Quad-core 1.4 GHz Cortex-A53 & Dual-core 1.8 GHz Cortex-A72 | Quad-core 1.4 GHz Cortex-A53 & Quad-core 1.8 GHz Cortex-A72 |
-| GPU          | 600MHz Adreno 510                               | 624MHz Adreno 530                               |
+| GPU          | 600MHz Adreno 510                               | 600MHz Adreno 510                               |
 | Memory       | 2/3 GB RAM                                      | 3/4 GB RAM                                      | 
 | Card slot    | microSD, up to 256 GB (uses SIM 1 slot)         | microSD, up to 256 GB (uses SIM 1 slot)         |
 | Shipped Android version | 6.0 with MIUI 7                      | 6.0 with MIUI 7                                 |
