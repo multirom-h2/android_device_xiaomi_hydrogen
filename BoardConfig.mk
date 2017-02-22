@@ -135,3 +135,8 @@ MR_REC_VERSION := $(shell date -u +%Y%m%d)-01
 endif
 
 BOARD_MKBOOTIMG_ARGS += --board mrom$(MR_REC_VERSION)
+
+# Init properties, ex. model info
+TARGET_INIT_VENDOR_LIB := libinit_hydrogen
+TARGET_RECOVERY_DEVICE_MODULES := libinit_hydrogen
+TARGET_UNIFIED_DEVICE := true
