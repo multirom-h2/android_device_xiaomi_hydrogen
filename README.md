@@ -1,4 +1,4 @@
-## TWRP device tree for Xiaomi Mi Max and Xiaomi Mi Max Prime (hydrogen/helium)
+## TWRP device tree for Xiaomi Mi Max (hydrogen)
 
 Add to `.repo/local_manifests/hydrogen.xml`:
 
