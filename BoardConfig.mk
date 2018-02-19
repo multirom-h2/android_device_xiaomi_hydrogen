@@ -114,7 +114,7 @@ MR_KEXEC_MEM_MIN := 0x00200000
 MR_KEXEC_DTB := true
 MR_DEVICE_HOOKS := $(DEVICE_TREE)/multirom/mr_hooks.c
 MR_DEVICE_HOOKS_VER := 1
-MR_DEVICE_VARIANTS := hydrogen
+MR_DEVICE_VARIANTS := hydrogen, helium
 
 # bootmenu
 DEVICE_RESOLUTION := 1080x1920
